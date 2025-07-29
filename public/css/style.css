@@ -22,6 +22,10 @@ header {
       h1 {
         color: white;
         font-size: 2em;
+
+        .mini {
+        font-size: 0.07em;
+        }
       }
 
       .logo-image {
@@ -54,4 +58,11 @@ nav {
             color: white;
         }
     }
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(148, 35, 35);
+  padding: 1em 0;
+  text-align: center;
 }
