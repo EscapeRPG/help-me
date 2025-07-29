@@ -1,5 +1,6 @@
-/expression-besoin.txt
-/node_modules
+expression-besoin.txt
+node_modules
 
 *.xlsx
 *.png
+*.jpg
