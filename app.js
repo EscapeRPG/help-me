@@ -9,11 +9,10 @@ app.use(express.static("public"));
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-let variableB =
+app.get("/", (req, res) => {let variableB =
   "Camille est une super camarade, je l'aime beaucoup elle est super sympa, en plus ses cheveux courts ça lui va super bien.";
 
-app.get("/", (req, res) => {
-  res.render("index", {
+  res.render("liste-tickets", {
     variable: variableB,
   });
 });
